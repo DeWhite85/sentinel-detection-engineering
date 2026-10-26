@@ -141,8 +141,14 @@ sentinel-detection-engineering/
 ├── README.md
 ├── KQL-DETECTIONS.md              — Full rule library with ATT&CK mapping
 ├── SOAR-PLAYBOOKS.md              — Playbook documentation
-└── scripts/
-    └── Deploy-NFGAnalyticsRules-v2.ps1    — Deploys all 10 rules via the Azure REST API
+├── scripts/
+│   └── Deploy-NFGAnalyticsRules-v2.ps1    — Deploys all 10 rules via the Azure REST API
+└── screenshots/
+    ├── 01-analytics-rule-deployed.png     — Rule state confirmed through the REST API
+    ├── 02-signinlogs-ingestion.png        — Simulated sign-in events reaching the workspace
+    ├── 03-security-operations-dashboard.png
+    ├── 04-dashboard-signin-activity.png
+    └── 05-workspace-connected-to-defender.png
 ```
 
 ---
